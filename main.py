@@ -3,6 +3,7 @@ try:
 except:
     import os
     os.system('pip install thefuzz')
+    from thefuzz import fuzz as f
 
 
 if __name__ == '__main__':
