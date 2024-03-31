@@ -1,5 +1,3 @@
-
-
 def lev_recursivo(a, b):
     def cabeca(a):
         return a[0]
