@@ -25,9 +25,3 @@ if __name__ == '__main__':
     for ratio_str in ratio_strs:
         ratio = fuzz.partial_ratio(ratio_str, ratio_str_origin)
         print(f'\'{ratio_str}\' -> \'{ratio_str_origin}\': {ratio}')
-
-# Quinto slide: Métodos Extra
-# -> String extraction: extrair uma string de um lista de strings que possui maior correspondência.
-# -> Métodos mais importantes:
-#    --> *process.extract*: encontra as strings com maior correspondência com a string passada como argumento de uma lista de strings;
-#    -->
